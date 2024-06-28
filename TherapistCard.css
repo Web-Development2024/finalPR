@@ -1,0 +1,23 @@
+.therapist-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .therapist-card h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .therapist-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666666;
+  }
+  
