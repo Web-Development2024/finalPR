@@ -1,6 +1,8 @@
 .landing-container {
     text-align: center;
     padding: 20px;
+    background-color: #87CEEB; /* Sky blue color */
+    height: 100vh;
   }
   
   .carousel {
@@ -28,8 +30,10 @@
   }
   
   .description {
-    text-align: right;
-    margin-right: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 2em; /* Double line spacing */
   }
   
   .description h2 {
@@ -39,5 +43,6 @@
   
   .description p {
     font-size: 18px;
+    margin-bottom: 20px; /* Add space between paragraphs */
   }
   

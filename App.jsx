@@ -42,13 +42,13 @@ function App() {
     <div className="container">
       <div className="header">
         <button className="form-toggle-button" onClick={() => setCurrentPage('landing')}>
-          Home
+          בית
         </button>
         <button className="form-toggle-button" onClick={() => setCurrentPage('map')}>
-          Show Map
+          הצג מפה
         </button>
         <button className="form-toggle-button" onClick={() => setCurrentPage('form')}>
-          Add New Therapist
+          הוסף מטפל חדש
         </button>
       </div>
       {currentPage === 'landing' && <LandingPage navigateToMap={() => setCurrentPage('map')} />}
